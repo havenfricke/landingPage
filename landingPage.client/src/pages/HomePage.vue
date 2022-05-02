@@ -267,7 +267,7 @@
       <div
         style="z-index: 0"
         class="
-          col-4
+          col-5
           p-5
           mx-1
           text-white
@@ -280,29 +280,29 @@
       >
         <div class="row d-flex justify-content-center">
           <img
-            class="rounded-circle img-fluid object-fit col-4 shadow"
+            class="rounded-circle pulse img-fluid object-fit col-4 shadow"
             src="src\assets\img\headshot pic me.png"
             alt=""
           />
 
-          <p class="col-8 text-center fs-1">HAVEN FRICKE</p>
-          <ul class="col-12 ms-5">
-            <div class="row d-flex justify-content-center">
-              <li class="my-3 col-12">Vue</li>
-              <li class="my-3 col-12">JavaScript</li>
-              <li class="my-3 col-12">MySQL</li>
-              <li class="my-3 col-12">Node.js</li>
-              <li class="my-3 col-12">Bootstrap</li>
-              <li class="my-3 col-12">C#</li>
-              <li class="my-3 col-12">Visual Studio Code</li>
-              <li class="my-3 col-12">HTML5</li>
-              <li class="my-3 col-12">REST API Conventions</li>
-              <li class="my-3 col-12">CSS & SCSS</li>
-              <li class="my-3 col-12">.NET Framework</li>
-              <li class="my-3 col-12">Auth0</li>
-              <li class="my-3 col-12">Git & GitHub</li>
-              <li class="my-3 col-12">Figma</li>
-              <li class="my-3 col-12">Scrum Framework</li>
+          <p class="col-12 textglow text-center mt-5 fs-1">HAVEN FRICKE</p>
+          <ul class="col-12">
+            <div class="row text-center textglow d-flex justify-content-center">
+              <h4 class="my-3 col-12">Vue</h4>
+              <h4 class="my-3 col-12">JavaScript</h4>
+              <h4 class="my-3 col-12">MySQL</h4>
+              <h4 class="my-3 col-12">Node.js</h4>
+              <h4 class="my-3 col-12">Bootstrap</h4>
+              <h4 class="my-3 col-12">C#</h4>
+              <h4 class="my-3 col-12">Visual Studio Code</h4>
+              <h4 class="my-3 col-12">HTML5</h4>
+              <h4 class="my-3 col-12">REST API Conventions</h4>
+              <h4 class="my-3 col-12">CSS & SCSS</h4>
+              <h4 class="my-3 col-12">.NET Framework</h4>
+              <h4 class="my-3 col-12">Auth0</h4>
+              <h4 class="my-3 col-12">Git & GitHub</h4>
+              <h4 class="my-3 col-12">Figma</h4>
+              <h4 class="my-3 col-12">Scrum Framework</h4>
             </div>
           </ul>
         </div>

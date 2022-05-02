@@ -50,6 +50,8 @@
             href="#contact"
             style="z-index: 2"
             class="
+              textglow
+              hoverable2
               btn
               p-1
               mx-1
@@ -105,7 +107,7 @@ a:hover {
   cursor: pointer;
 }
 .hoverable:active {
-  transform: scale(0.98);
+  transform: scale(0.9);
   transition: 50ms ease-in-out;
 }
 img {
@@ -114,12 +116,13 @@ img {
 
 .hoverable2:hover {
   filter: drop-shadow(0px 0px 5px rgb(63, 255, 98));
+  transform: scale(1.05);
   transition: 150ms ease-in-out;
   cursor: pointer;
 }
-.hoverable:active {
-  transform: scale(0.98);
-  transition: 50ms ease-in-out;
+.hoverable2:active {
+  transform: scale(0.95);
+  transition: 10ms ease-in-out;
 }
 body {
   background: #000;
@@ -171,5 +174,14 @@ body {
 }
 .mainfont {
   font-family: monospace;
+}
+p,
+.textglow {
+  max-width: 55vw;
+  white-space: pre-line;
+  letter-spacing: 0.1em;
+  font-size: 1.1em;
+  color: #05e110ce;
+  filter: drop-shadow(0 0 2px #4aff3a7e);
 }
 </style>

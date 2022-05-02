@@ -20,21 +20,32 @@
           style="z-index: 0"
           class="side bottom border pulse border-white"
         ></div>
-        <div style="z-index: 0" class="side front border pulse border-white">
+        <div
+          style="z-index: 0"
+          class="side front text-center border pulse border-white"
+        >
+          <a href="https://github.com/havenfricke/">
+            <i class="mdi mdi-github selectable rounded-circle"></i>
+          </a>
+        </div>
+        <div
+          style="z-index: 0"
+          class="side text-center back border pulse border-white"
+        >
+          <a href="https://linkedin.com/in/haven-fricke/">
+            <i class="mdi mdi-linkedin selectable rounded-circle"></i
+          ></a>
+        </div>
+        <div
+          style="z-index: 0"
+          class="side left border text-center pulse border-white"
+        >
           <img
             class="mt-5 p-4"
             src="src\assets\img\Recurso 292MODERN ICON.svg"
             alt=""
           />
         </div>
-        <div
-          style="z-index: 0"
-          class="side back border pulse border-white"
-        ></div>
-        <div
-          style="z-index: 0"
-          class="side left border pulse border-white"
-        ></div>
         <div
           style="z-index: 0"
           class="side right border pulse border-white"
@@ -117,14 +128,16 @@
       >
         <i class="mdi text-primary fs-1 mdi-alert"></i>
         <h6 class="border textglow border-primary p-1 col-12 mb-5 text-primary">
-          passion and mission driven developer
+          click the LinkedIn icon on the box
           <span class="col-1 textinput mainfont mx-1 px-1"> </span>
         </h6>
-        <img
-          class="pulse mt-3"
-          src="src\assets\img\Recurso 12GRAPHS.svg"
-          alt=""
-        />
+        <div class="d-flex justify-content-center">
+          <img
+            class="pulse col-6 mt-3"
+            src="src\assets\img\Recurso 12GRAPHS.svg"
+            alt=""
+          />
+        </div>
       </div>
     </div>
     <div class="row mt-5 justify-content-around">
@@ -308,34 +321,16 @@
         </div>
       </div>
     </div>
-    <div class="row pulse p-5">
+    <div style="z-index: 0" class="row pulse p-5">
       <img
-        class="col-5 pulse mb-5 p-5 pulse"
+        class="col-3 pulse p-2 pulse"
         src="src\assets\img\Recurso 31GRAPHS.svg"
         alt=""
       />
-      <div class="row justify-content-end">
-        <i class="mdi text-end text-primary fs-1 mdi-alert"></i>
-        <h6
-          class="
-            border
-            textglow
-            border-primary
-            textglow
-            mainfont
-            p-1
-            col-3
-            mb-5
-            text-primary
-          "
-        >
-          keeping it clean keeps it green
-          <span class="col-1 textinput mainfont mx-1 px-1"> </span>
-        </h6>
-      </div>
-      <div class="row d-flex justify-content-center">
+      <div class="row justify-content-start"></div>
+      <div class="row d-flex justify-content-start">
         <img
-          class="col-10"
+          class="col-6 mt-5"
           style="z-index: 0"
           src="src\assets\img\Recurso 6GRAPHS.svg"
           alt=""
@@ -343,9 +338,40 @@
       </div>
     </div>
     <div class="row">
-      <div class="text-primary col-12 bg-dark p-5 mt-5">
-        <h1 class="textglow">SOMETHING HERE</h1>
-      </div>
+      <div class="mt-5 px-5"></div>
+      <div class="mt-5 px-5"></div>
+      <div class="mt-5 px-5"></div>
+      <div class="mt-5 px-5"></div>
+      <div class="mt-5 px-5"></div>
+      <i class="mdi text-end text-primary fs-1 mdi-alert"></i>
+      <h6
+        class="
+          border
+          textglow
+          border-primary
+          text-end
+          textglow
+          mainfont
+          p-1
+          col-3
+          text-primary
+        "
+      >
+        keeping it clean keeps it green
+        <span class="col-1 textinput mainfont mx-1 px-1"> </span>
+      </h6>
+      <div class="mt-5 px-5"></div>
+      <div class="mt-5 px-5"></div>
+      <div class="mt-5 px-5"></div>
+      <div class="mt-5 px-5"></div>
+      <div class="mt-5 px-5"></div>
+      <div class="mt-5 px-5"></div>
+      <div class="mt-5 px-5"></div>
+      <div class="mt-5 px-5"></div>
+      <div class="mt-5 px-5"></div>
+      <div class="mt-5 px-5"></div>
+      <div class="mt-5 px-5"></div>
+      <div class="mt-5 px-5"></div>
     </div>
   </div>
 </template>
@@ -430,7 +456,7 @@ body {
 }
 .cube {
   transform-style: preserve-3d;
-  transform: rotateX(45deg) rotateZ(40deg) rotateY(-45deg);
+  transform: rotateX(0deg) rotateZ(40deg) rotateY(-45deg);
   animation: cube 1s linear;
 }
 @keyframes cube {

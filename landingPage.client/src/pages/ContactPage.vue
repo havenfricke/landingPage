@@ -3,11 +3,13 @@
     <div class="row mt-5 d-flex justify-content-center pt-5">
       <div class="col-10 mt-5 border border-primary p-5">
         <span class="row justify-content-center">
-          <p class="fs-1 col-12 mainfont text-center textglow">Contact Form</p>
+          <p class="fs-1 col-12 mainfont border-bottom border-primary textglow">
+            Contact Form
+          </p>
         </span>
 
         <form
-          class=""
+          class="mt-3"
           action="https://formsubmit.co/c830d841a364c6255e3cac86fcd4529a"
           method="POST"
         >

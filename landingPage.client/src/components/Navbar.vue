@@ -61,9 +61,8 @@
               text-uppercase
             "
           >
-            Contact
+            <router-link :to="{ name: 'Contact' }"> Contact </router-link>
           </span>
-          <a></a>
         </li>
       </ul>
       <span style="z-index: 0; width: 88vw" class="col-12">

@@ -78,7 +78,7 @@
           style="z-index: 2"
           class="col-9 me-5 pt-5 mt-3 tshadow mainfont text-white"
         >
-          <h1 class="mt-4 text-primary ms-2 textglow fs-2">More</h1>
+          <h1 class="mt-4 textprimary ms-2 textglow fs-2">Mission Statement</h1>
           <p class="ms-3">
             Our future relies on innovators. I am one of those. I take extreme
             care when it comes to resolving issues in the most efficient way

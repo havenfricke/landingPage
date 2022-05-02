@@ -327,7 +327,24 @@
         src="src\assets\img\Recurso 31GRAPHS.svg"
         alt=""
       />
-      <div class="row justify-content-start"></div>
+      <div class="row justify-content-start">
+        <i class="mdi text-start text-primary fs-1 mdi-alert"></i>
+        <h6
+          class="
+            border
+            textglow
+            border-primary
+            textglow
+            mainfont
+            p-1
+            col-3
+            text-primary
+          "
+        >
+          keeping it clean keeps it green
+          <span class="col-1 textinput mainfont mx-1 px-1"> </span>
+        </h6>
+      </div>
       <div class="row d-flex justify-content-start">
         <img
           class="col-6 mt-5"
@@ -338,40 +355,9 @@
       </div>
     </div>
     <div class="row">
-      <div class="mt-5 px-5"></div>
-      <div class="mt-5 px-5"></div>
-      <div class="mt-5 px-5"></div>
-      <div class="mt-5 px-5"></div>
-      <div class="mt-5 px-5"></div>
-      <i class="mdi text-end text-primary fs-1 mdi-alert"></i>
-      <h6
-        class="
-          border
-          textglow
-          border-primary
-          text-end
-          textglow
-          mainfont
-          p-1
-          col-3
-          text-primary
-        "
-      >
-        keeping it clean keeps it green
-        <span class="col-1 textinput mainfont mx-1 px-1"> </span>
-      </h6>
-      <div class="mt-5 px-5"></div>
-      <div class="mt-5 px-5"></div>
-      <div class="mt-5 px-5"></div>
-      <div class="mt-5 px-5"></div>
-      <div class="mt-5 px-5"></div>
-      <div class="mt-5 px-5"></div>
-      <div class="mt-5 px-5"></div>
-      <div class="mt-5 px-5"></div>
-      <div class="mt-5 px-5"></div>
-      <div class="mt-5 px-5"></div>
-      <div class="mt-5 px-5"></div>
-      <div class="mt-5 px-5"></div>
+      <div class="text-primary col-12 bg-dark p-5 mt-5">
+        <h1 class="textglow">SOMETHING HERE</h1>
+      </div>
     </div>
   </div>
 </template>
@@ -456,7 +442,7 @@ body {
 }
 .cube {
   transform-style: preserve-3d;
-  transform: rotateX(0deg) rotateZ(40deg) rotateY(-45deg);
+  transform: rotateX(90deg) rotateZ(180deg) rotateY(-45deg);
   animation: cube 1s linear;
 }
 @keyframes cube {
